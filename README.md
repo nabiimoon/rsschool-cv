@@ -16,7 +16,7 @@ I work as an engineer in a construction company and I'm connected with programmi
 *uncharted territory*
 
 ### Experience:
-https://nabiimoon.github.io/rsschool-cv/cv
+https://nabiimoon.github.io/rsschool-cv/
 
 ### English:
 Elementary - A1
