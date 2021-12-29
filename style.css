@@ -1,1 +1,14 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+  p {
+    text-align: justify;
+    margin-left: 10px; /* Отступ слева в пикселах */
+    margin-right: 10px; /* Отступ справа в пикселах */
+  }
 
