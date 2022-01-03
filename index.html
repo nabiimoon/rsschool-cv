@@ -2,15 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>cv</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,300&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Demina Svetlana</h1>
-    <p>Contacts:
-    telegram: @aloha_lana
-    discord: taij#9117</p>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#aboutmyself" class="nav-link">About myself</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+              <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section section-name" id="name">
+            <img src="./assets/img/avatar.jpg" alt="" class="section-profile-logo">
+            <div class="section-profile-title">
+              <h2 class="section-title main-title">Demina Svetlana</h2>
+              <h1 class="section-subtitle">Junior Front-End Developer</h1>
+            </div>        
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="section-list">                           
+              <li class="section-item contacts-item">
+                Telegram: <a href="https://t.me/aloha_lana" title="github">@aloha_lana</a>
+              </li>
+              <li class="section-item contacts-item">
+                Discord: <a href="https://discord.gg/" title="github">taij#9117</a>
+              </li>
+              <li class="section-item contacts-item">
+                Github: <a href="https://github.com/nabiimoon" title="github">nabiimoon</a>
+              </li>
+              <li class="section-item contacts-item">
+                Perm, Russia
+              </li>
+            </ul>
+          </section>
+        <section class="section" id="aboutmyself">
+            <h2 class="section-title">About myself</h2>
+            <p>
+            I work as an engineer in a construction company and I'm connected with programming only by a great interest in this topic. I plan and will do my best to become Front-End Development in RSSchool.
+            </p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list">
+              <li class="section-item">
+                HTML5, CSS3
+              </li>
+              <li class="section-item">
+                GIT, Github
+              </li>
+              <li class="section-item">
+                VS Code
+              </li>
+              <li class="section-item">
+                Adobe Photoshop
+              </li>            
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <pre class="pre"><code>function sum(a, b) {
+return a + b;
+}
+let result = sum(1, 2);
+alert( result );
+}
+            </code></pre>
+        </section>  
+        <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul class="section-list">
+                <li class="section-item">
+                    RSSchool
+                </li>
+            </ul>
+        </section> 
+        <section class="section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <ul class="section-list">
+                <li class="section-item experience-item">
+                    Github: <a href="https://github.com/nabiimoon" title="github">nabiimoon</a>
+                </li>
+            </ul>
+        </section>
+        <section class="section section-education" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>Perm State Agro-Technological University</p>
+        </section>
+        <section class="section section-english" id="english">
+            <h2 class="section-title">English</h2>
+            <p>Elementary - A1</p>
+        </section>
+      </div>
+     </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div>© 2022 <a href="https://github.com/nabiimoon" class="github nav-link">nabiimoon</a></div>
+        <a href="https://rs.school/js/" class="rss"></a>
+      </div>
+    </footer>    
 </body>
 </html>
